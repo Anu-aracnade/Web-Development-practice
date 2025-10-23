@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resgistration Form</title>
+    <link rel="stylesheet" href="styleBg.css">
+</head>
+<body>
+    <h1>➡️<i>"Please fill out your details to enroll in our online course":</i></h1>
+    <h2>📝Registration form :</h2>
+    <div>
+        <h3>👉Personal Information :</h3>
+        <div>
+            <label for="name"><b>Full name :</b></label>
+            <input type="text" name="name" id="name" placeholder="Enter your name here...">           
+        </div>
+        <div>
+            <label for="email"><b>Personal Email address :</b></label>
+            <input type="text" name="email" id="email" placeholder="Enter your email address here...">
+        </div>
+        <div>
+            <label for="password"><b>Password :</b></label>
+            <input type="text" name="password" id="password" placeholder="Enter your password here...">
+        </div>
+        <div>
+            <label for="DOB"><b>DOB :</b></label>
+            <input type="text" name="DOB" id="DOB" placeholder="DDMMYYYY">
+        </div>
+        <div>
+            <b>Gender :</b>
+            <label for="male"><b>Male</b></label>
+            <input type="radio" name="gender" id="male" value="male">
+        
+            <label for="female"><b>Female</b></label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+
+
+    </div>
+    <div>
+        <h3>👉Academic Information :</h3>
+        <b>Course Applying For :</b>
+        <div>
+            <select name="course" id="course">
+                <option value="B.E. Computer Science">B.E. Computer Science</option>
+                <option value="B.E. Mechanical">B.E. Mechanical</option>
+                <option value="B.E. Civil">B.E. Civil</option>
+                <option value="B.E. Electrical">B.E. Electrical</option>
+            </select>
+        </div>
+        <b>Subjects of Interest :</b>
+        <div>
+            <label for="Artificial Intelligence">Artificial Intelligence</label>
+            <input type="checkbox" name="Artificial Intelligence" id="Artificial Intelligence" value="yes">
+        </div>
+        <div>
+            <label for="Web Development">Web Development</label>
+            <input type="checkbox" name="Web Development" id="Web Development" value="yes">
+        </div>
+        <div>
+            <label for="Cyber Security">Cyber Security</label>
+            <input type="checkbox" name="Cyber Security" id="Cyber Security" value="yes">
+        </div>
+        <div>
+            <label for="Cloud Computing">Cloud Computing</label>
+            <input type="checkbox" name="Cloud Computing" id="Cloud Computing" value="yes">
+        </div>
+    </div>
+    <div>
+        <h3>👉Contact Information :</h3>
+        <div>
+        <label for="phone">Phone number :</label>
+        <input type="number" name="phone" id="phone" placeholder="Enter your phone number..">
+        </div>
+        <div>
+            <b>Address:</b>
+            <textarea name="address" id="address" cols="10" rows="3">Enter your address here...</textarea>
+        </div>
+        <div>
+            <b>City :</b>
+            <select name="city" id="city">
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Assam">Assam</option>
+            </select>
+        </div>
+    </div>
+    
+</body>
+</html>
